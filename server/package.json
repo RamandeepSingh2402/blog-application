@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/RamandeepSingh2402/blog-application#readme",
   "dependencies": {
-    "express": "^4.18.2"
-  }, 
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  },
   "devDependencies": {
     "nodemon": "^3.0.1"
   }

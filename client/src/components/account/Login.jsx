@@ -53,6 +53,10 @@ const signupInitialValues = {
     password: ''
 }
 
+const signupUser = () => {
+    
+}
+
 const Login = () => {
 
     const imageUrl = "https://www.sesta.it/wp-content/uploads/2021/03/logo-blog-sesta-trasparente.png";
@@ -91,7 +95,7 @@ const Login = () => {
                             <TextField variant="standard" onChange={(e) => onInputChange(e)} name='Name' label = "Enter name"/>
                             <TextField variant="standard" onChange={(e) => onInputChange(e)} name='Username' label="Enter username"/>
                             <TextField variant="standard" onChange={(e) => onInputChange(e)} name='password' label= "Enter password"/>
-                            <SignupButton>
+                            <SignupButton onClick={() =>  signupUser()}>
                                 Signup    
                             </SignupButton>
                             <Text style = {{'textAlign' : "center"}}>
